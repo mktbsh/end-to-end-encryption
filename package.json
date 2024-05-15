@@ -1,0 +1,20 @@
+{
+  "name": "vanilla-e2ee",
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-node-polyfills": "^0.21.0"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module",
+  "dependencies": {
+    "buffer": "^6.0.3",
+    "file-type": "^19.0.0"
+  }
+}
